@@ -35,6 +35,6 @@ document.querySelector('.hero .btn-primary').addEventListener('click', () => {
 // Form submission
 document.querySelector('.contact-form')?.addEventListener('submit', function(e) {
     e.preventDefault();
-    alert('Thank you for your message! Moses will contact you soon.');
+    alert('Thank you for your message! Youfine will contact you soon.');
     this.reset();
 });
